@@ -99,8 +99,11 @@ buttons.forEach(btn => {
         }
 
         setTimeout(() =>){
+            btn.style.backgroundColor = 'color';
+            currentQuestion = new Question();
+            currentQuestion.displayQuestion();
             
         }
         }
-    })
-});
+    
+    )})
